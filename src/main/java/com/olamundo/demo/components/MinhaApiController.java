@@ -9,4 +9,8 @@ public class MinhaApiController {
     public String helloWorld() {
         return "Hello World";
     }
+    @GetMapping("/goodbye")
+    public String goodbyeWorld() {
+        return "Goodbye World";
+    }
 }
